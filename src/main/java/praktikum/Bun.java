@@ -22,4 +22,11 @@ public class Bun {
         return price;
     }
 
+    @Override
+    public String toString() {
+        return "Bun{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
