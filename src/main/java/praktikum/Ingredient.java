@@ -28,13 +28,4 @@ public class Ingredient {
     public IngredientType getType() {
         return type;
     }
-
-    @Override
-    public String toString() {
-        return "Ingredient{" +
-                "type=" + type +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
 }

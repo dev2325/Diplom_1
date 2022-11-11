@@ -21,12 +21,4 @@ public class Bun {
     public float getPrice() {
         return price;
     }
-
-    @Override
-    public String toString() {
-        return "Bun{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
 }

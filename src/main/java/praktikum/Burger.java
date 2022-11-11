@@ -53,12 +53,4 @@ public class Burger {
 
         return receipt.toString();
     }
-
-    @Override
-    public String toString() {
-        return "Burger{" +
-                "bun=" + bun +
-                ", ingredients=" + ingredients +
-                '}';
-    }
 }
